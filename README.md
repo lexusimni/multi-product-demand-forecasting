@@ -136,5 +136,6 @@ demand-forecasting/
 
 I'm a software engineer and aspiring data scientist with a focus on machine learning, explainability, and applied AI. My portfolio combines both engineering and modeling projects designed to solve real-world problems at scale.  
 🔗 [GitHub](https://github.com/lexusimni)
+[Linkedin](https://www.linkedin.com/in/alexus-glass-248061237/)
 
 ---
