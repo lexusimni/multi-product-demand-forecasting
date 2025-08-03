@@ -64,7 +64,7 @@ Here’s how the models performed on the test set:
 
 To evaluate visually, we plotted predicted demand vs actual demand for a sample product–warehouse pair:
 
-![Forecast vs Actual](outputs/forecast_vs_actual.png)
+![Forecast vs Actual](outputs/forecasts.png)
 
 - The XGBoost model closely follows actual demand patterns over time
 - Occasional spikes were captured well, showing good responsiveness to short-term trends
@@ -75,7 +75,7 @@ To evaluate visually, we plotted predicted demand vs actual demand for a sample 
 
 To interpret what features the XGBoost model relied on most, we used **SHAP (SHapley Additive exPlanations)**:
 
-![SHAP Summary](outputs/shap_summary.png)
+![SHAP Summary](outputs/shap_feature_importance.png)
 
 - **Lag-based features** (previous demand values) were the most influential
 - **Rolling averages** helped smooth out demand noise
